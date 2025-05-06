@@ -1,10 +1,10 @@
-/* Base styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap");
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background-color: #181818;
   color: #000;
   scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -29,6 +29,7 @@ header span {
 }
 #home h1 {
   font-size: 4rem;
+  font-weight: 400;
 }
 #home p {
   font-size: 2rem;
@@ -41,7 +42,7 @@ nav a {
   color: #fff;
   margin: 0 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 100;
 }
 
 nav a:hover {
@@ -155,7 +156,7 @@ footer {
 .animate {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInUp 2s ease-out forwards;
+  animation: fadeInUp 4s ease-out forwards;
 }
 
 @keyframes fadeInUp {
@@ -181,7 +182,7 @@ footer {
     position: fixed;
   }
   header span {
-    width: 15%;
+    width: 25%;
     padding: 0.03rem;
   }
   nav {
@@ -197,27 +198,30 @@ footer {
   .About {
     font-size: 1.5rem;
     border-bottom: 0.5rem solid rgb(239, 44, 77);
+    padding-top: 2rem;
   }
   #home {
     text-align: center;
     padding-top: 15rem;
   }
   #home h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
   }
   #home p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #f0f0f0;
   }
   .context {
-    font-size: 0.6em;
+    font-size: 0.9em;
     padding: 0.5rem;
   }
   .projects h2 {
-    font-size: 0.9em;
+    font-size: 1.2em;
   }
   .projects p {
-    font-size: 0.6em;
+    font-size: 0.7em;
+    letter-spacing: 0.1rem;
   }
   .img-con {
     display: block;
